@@ -1,0 +1,14 @@
+#COMPILAZIONE JENKINS
+https://jenkins-cd.toolchain.csi.it
+
+# ADA: 
+https://ada.nivolapiemonte.it/deployer/deployments
+
+# VERIFICA DELLA BONTA' DEL CODICE
+https://jenkins-ci.csi.it/job/CPASS/
+http://sonarqube.csi.it
+
+# Repository Artifactory
+https://repo.ecosis.csi.it/artifactory/webapp/#/artifacts/browse/tree/General/procurement/cpass
+http://repo.ecosis.csi.it/artifactory/webapp/#/artifacts/browse/tree/General/procurement/cpass/ 
+http://repo.ecosis.csi.it/artifactory/simple/procurement/cpass/rp-01/1.0.0/UI/prod/

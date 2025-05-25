@@ -1,0 +1,71 @@
+### Linux ###
+*~
+.fuse_hidden*
+.Trash-*
+.nfs*
+
+### Windows ###
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+.pdf
+
+### Eclipse ###
+.metadata
+bin/
+bintest/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.settings/
+.loadpath
+.recommenders
+.externalToolBuilders/
+*.launch
+.factorypath
+.recommenders/
+.apt_generated/
+.project
+.classpath
+.apt_generated
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.flattened-pom.xml
+/debug-backup-29-04-21-1.log.gz
+/debug-backup-30-04-21-1.log.gz
+/debug-backup-30-04-21-1.log.gz
+/debug-backup-01-06-21-1.log.gz
+/debug-backup-2023-09-20 12-35-19-1.log.gz
+/debug-backup-2023-09-21 10-30-21-1.log.gz
+/debug-backup-2023-09-21 10-30-22-1.log.gz
+/debug-backup-2023-09-21 10-30-27-1.log.gz
+/debug-backup-2023-09-21 10-36-22-1.log.gz
+/debug-backup-2023-09-21 10-37-23-1.log.gz
+/debug-backup-2023-09-21 11-12-19-1.log.gz
+/debug-backup-2023-09-21 11-13-20-1.log.gz
+/debug-backup-2023-09-21 11-47-22-1.log.gz
+/debug-backup-2023-09-21 11-48-23-1.log.gz
+/debug-backup-2023-09-21 12-07-31-1.log.gz
+/debug-backup-2023-09-21 12-08-32-1.log.gz
+/debug-backup-2023-09-21 12-24-58-1.log.gz
+/debug-backup-2023-09-21 12-24-59-1.log.gz
+/debug-backup-2023-09-21 12-26-06-1.log.gz
+/debug-backup-2023-09-21 12-27-07-1.log.gz
+/debug-backup-2023-09-21 13-02-59-1.log.gz
+/debug-backup-2023-09-21 13-03-00-1.log.gz
+/build/

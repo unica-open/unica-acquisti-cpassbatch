@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- ========================LICENSE_START================================= 
+	CPASS BackEnd - TAR submodule %% Copyright (C) 2019 - 2020 CSI Piemonte %% 
+	SPDX-FileCopyrightText: Copyright 2019 - 2020 | CSI Piemonte SPDX-License-Identifier: 
+	EUPL-1.2 =========================LICENSE_END================================== -->
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.0.0 http://maven.apache.org/xsd/assembly-2.0.0.xsd">
+	<id>${project.version}</id>
+	<formats>
+		<format>tar</format>
+	</formats>
+	<includeBaseDirectory>false</includeBaseDirectory>
+	<files>
+		<file>
+			<source>${project.build.directory}/cpassbatch-${project.version}.jar</source>
+			<destName>cpassbatch.jar</destName>
+		</file>
+	</files>
+	<fileSets>
+		<fileSet>
+			<outputDirectory>/log</outputDirectory>
+			<directory>${project.basedir}/target</directory>
+			<excludes>
+				<exclude>**/*</exclude>
+			</excludes>
+		</fileSet>
+	</fileSets>
+</assembly>
