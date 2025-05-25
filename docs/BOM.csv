@@ -1,4 +1,0 @@
-name*,version*,license*,vendor/community,end-of-support,dependencies,language
-commons-lang3,3.9,Apache 2.0,,,,java
-log4j-api,2.13.3,Apache 2.0,,,,java
-log4j-core,2.13.3,Apache 2.0,,,,java
